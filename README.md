@@ -34,6 +34,19 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Endpoints
+
+```bash
+
+POST: /play/:room/:nickname/:play
+( Play values: 'rock' | 'sissors' | 'paper' )
+
+GET: /play/:room/:nickname/
+( Return values: 'win' | 'lose' | 'draw' )
+
+```
+
+
 ## License
 
   Nest is [MIT licensed](LICENSE).
