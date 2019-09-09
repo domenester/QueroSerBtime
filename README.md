@@ -34,6 +34,11 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Dependecies
+
+Postgres must be running at http://127.0.0.1:5432
+
+
 ## Endpoints
 
 ```bash
@@ -45,8 +50,3 @@ GET: /play/:room/:nickname/
 ( Return values: 'win' | 'lose' | 'draw' )
 
 ```
-
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
